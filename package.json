@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --port 4173",
+    "lint": "echo 'No linter configured'",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@google/genai": "^1.28.0",
@@ -16,7 +19,10 @@
     "file-saver": "^2.0.5"
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.7",
     "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
