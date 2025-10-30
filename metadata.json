@@ -1,0 +1,7 @@
+{
+  "name": "AI Perencana Strategi Startup",
+  "description": "Aplikasi berbasis AI yang menyediakan analisis mendalam dan strategi pemasaran yang kuat untuk bisnis rintisan, memanfaatkan Gemini dengan landasan pencarian dan peta untuk wawasan terkini yang dapat ditindaklanjuti.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
